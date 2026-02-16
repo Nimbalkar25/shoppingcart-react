@@ -7,7 +7,7 @@ import { store } from './redux/store.js'
 import {Provider} from "react-redux"
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/shoppingcartreactapp">
+  <BrowserRouter basename="/shoppingcart-react">
     <Provider store ={store}>
       <App />
     </Provider>
